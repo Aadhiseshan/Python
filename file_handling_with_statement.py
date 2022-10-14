@@ -1,0 +1,10 @@
+with open("/home/aadhiseshan/Desktop/new.txt","r") as f:
+    print("cursor possition is: ",f.tell())
+    op=f.read(7)
+    print(op)
+    print("cursor possition is: ",f.tell())
+    print("cursor possition is: ",f.tell())
+    f.seek(10)
+    op=f.read()
+    print(op)
+    print("cursor possition is: ",f.tell())
